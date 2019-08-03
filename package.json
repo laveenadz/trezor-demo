@@ -1,0 +1,33 @@
+{
+  "name": "nw.js-examples",
+  "version": "1.0.0",
+  "description": "nw.js features demonstrated in a simple project",
+  "license": "MIT",
+  "author": "",
+  "scripts": {
+    "dev": "nw src/",
+    "prod": "nwbuild --platforms win32,win64,osx64,linux32,linux64 --buildDir dist/ src/"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "nw": "^0.18.8",
+    "nw-builder": "^3.1.2"
+  },
+  "window": {
+    "toolbar": true
+  },
+  "dependencies": {
+    "babel-register": "^6.26.0",
+    "firmware": "^1.0.0",
+    "nan": "github:bnoordhuis/nan#fix832",
+    "node-fetch": "^2.6.0",
+    "parse": "^2.1.0",
+    "trezor-connect": "^7.0.5",
+    "trezor-link": "^1.6.1",
+    "trezor-link-node": "^0.2.114"
+  }
+}

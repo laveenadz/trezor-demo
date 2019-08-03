@@ -1,0 +1,16 @@
+{
+  "name": "nw.js-examples",
+  "version": "1.0.0",
+  "description": "nw.js features demonstrated in a simple project",
+  "main": "views/main.html",
+  "license": "MIT",
+  "window": {
+    "min_width": 400,
+    "min_height": 420,
+    "icon": "assets/icon.png"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.5",
+    "font-awesome": "^4.7.0"
+  }
+}
